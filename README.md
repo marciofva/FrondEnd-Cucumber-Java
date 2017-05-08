@@ -34,4 +34,7 @@ BDD requires a feature file to invoke the step definitions:
 
 - Observation: It is possible to run it through prompt command by invoking the java file and passing these 3 parameters too;
 
+- It is possible to run it in two different ways such as:
+- 1 - By feature file directly;
+- 2 - By a runner using Cucumber;
 
