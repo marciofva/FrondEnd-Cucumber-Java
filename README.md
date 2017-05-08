@@ -45,6 +45,6 @@ BDD requires a feature file to invoke the step definitions:
  - BROWSER = System.getProperty("browser");
 
 - It is possible to run the project in two different ways such as:
-- 1 - By feature file directly;
-- 2 - By a runner using Cucumber with JUnit;
+- 1 -> By feature file directly;
+- 2 -> By a runner using Cucumber with JUnit;
 
