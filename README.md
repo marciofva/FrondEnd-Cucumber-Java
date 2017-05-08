@@ -1,6 +1,7 @@
 ## Project Structure
 For this project I toke the following steps:
 - The programming language is JAVA;
+- IDE: Eclipse
 - Create a Maven project to build the program;
 - Add all dependences in pom.xml regarding some frameworks that I used such as Cucumber, JUnit and Selenium;
 - Add all drivers that will be used when launched the browsers, so I considered the following browsers (Chrome, Firefox and IE);
