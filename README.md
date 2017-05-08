@@ -26,7 +26,7 @@ BDD requires a feature file to invoke the step definitions:
 - Read the requirements to know what the system really does;
 - Perform manual tests so as to understand the behaviour of the system;
 - Automate the test cases using BDD practices;
-- The requirements requested that was passed the parameters USERNAME and PASSWORD by command line instead of leaving hardcode;
+- The requirement rules asked to pass the parameters "USERNAME" and "PASSWORD" by command line instead of leaving hardcode;
 
 ## How to run it
 - First, it is necessary to declare which parameters should be passed by command line or VM arguments in Java. Follow the below image to illustrate it. So, in this project is necessary to pass 3 parameters in run execution such as USERNAME, PASSWORD and BROWSER.
