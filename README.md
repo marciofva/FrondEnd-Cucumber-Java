@@ -11,8 +11,8 @@ For this project I toke the following steps:
 There are 2 pages for automation which are "Login Page" and "Secure Area Page":
 - Each page becomes a class and each element becomes a variable in this class;
 - Write all required methods to manage the page as per the requirements;
-- Create a abstract class to manage the webdriver in order to use it only once and it is passed through the constructor when a new object is created;
-- In abstract class was created common methods that will be invoked for all pages/classes (reusability);
+- Create a abstract class to manage the webdriver and it is passed through the constructor when a new object is created;
+- In abstract class has common methods that will be invoked for all pages/classes (reusability). Therefore, it is extended in all page object class;
 
 ## BDD (Feature file / Step definition)
 BDD requires a feature file to invoke the step definitions:
