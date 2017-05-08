@@ -33,9 +33,14 @@ BDD requires a feature file to invoke the step definitions:
 
 ![config file](https://cloud.githubusercontent.com/assets/25671064/25788799/2c745bf6-3382-11e7-8761-0ba7bddbc88a.jpg)
 
-- Observation: It is possible to run it through prompt command by invoking the java file and passing these 3 parameter values too;
+- Observation: It is also possible to run it through prompt command by invoking the java file and passing these 3 parameter values;
 
-- It is possible to run it in two different ways such as:
+- All parameters is get by getProperty, like:
+- username = System.getProperty("username");
+- password = System.getProperty("password");
+- BROWSER = System.getProperty("browser");
+
+- It is possible to run the project in two different ways such as:
 - 1 - By feature file directly;
 - 2 - By a runner using Cucumber with JUnit;
 
