@@ -37,5 +37,5 @@ BDD requires a feature file to invoke the step definitions:
 
 - It is possible to run it in two different ways such as:
 - 1 - By feature file directly;
-- 2 - By a runner using Cucumber;
+- 2 - By a runner using Cucumber with JUnit;
 
