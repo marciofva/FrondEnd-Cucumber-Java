@@ -30,9 +30,10 @@ BDD requires a feature file to invoke the step definitions:
 
 ## How to run it
 - First, it is necessary to declare which parameters should be passed by command line or VM arguments in Java. Follow the below image to illustrate it. So, in this project is necessary to pass 3 parameters in run execution such as USERNAME, PASSWORD and BROWSER.
+
 ![config file](https://cloud.githubusercontent.com/assets/25671064/25788799/2c745bf6-3382-11e7-8761-0ba7bddbc88a.jpg)
 
-- Observation: It is possible to run it through prompt command by invoking the java file and passing these 3 parameters too;
+- Observation: It is possible to run it through prompt command by invoking the java file and passing these 3 parameter values too;
 
 - It is possible to run it in two different ways such as:
 - 1 - By feature file directly;
