@@ -35,7 +35,7 @@ BDD requires a feature file to invoke the step definitions:
 
 - Observation: It is also possible to run it through prompt command by invoking the java file and passing these 3 parameter values;
 
-- All parameters is get by getProperty, like:
+- All parameters is taken by "getProperty" command, like:
  - username = System.getProperty("username");
  - password = System.getProperty("password");
  - BROWSER = System.getProperty("browser");
